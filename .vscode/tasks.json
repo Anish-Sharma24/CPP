@@ -66,14 +66,14 @@
         },
         {
             "type": "cppbuild",
-            "label": "Build with MSVC 19.41.34120",
+            "label": "Build with MSVC 19.40.33813",
             "command": "cl.exe",
             "args": [
-                "/Zi",
-                "/std:c++latest",
-                "/EHsc",
-                "/Fe:",
-                "${fileDirname}\\rooster.exe",
+                    "/Zi",
+	                "/std:c++latest",
+	                "/EHsc",
+	                "/Fe:",
+	                "${fileDirname}\\rooster.exe",
                 "${workspaceFolder}\\*.cpp"
             ],
             "options": {
@@ -84,6 +84,6 @@
             ],
             "group": "build",
             "detail": "compiler: cl.exe"
-        },
+        }
     ]
 }
